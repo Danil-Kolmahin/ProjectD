@@ -11,6 +11,9 @@
     npx nx g @nrwl/react:app client
     git add -A && git commit -m "Add client application" && git push
 
+    npm install --save-dev @nrwl/nest
+    npx nx g @nrwl/nest:app server --frontendProject=client
+
 # Run current project
     npx nx build client:build:production
     npx http-server ./dist/apps/client
