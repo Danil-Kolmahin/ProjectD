@@ -10,3 +10,7 @@
     npm install -D @nrwl/react
     npx nx g @nrwl/react:app client
     git add -A && git commit -m "Add client application" && git push
+
+# Run current project
+    npx nx build client
+    npx http-server ./dist/apps/client
