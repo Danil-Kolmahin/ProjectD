@@ -12,5 +12,8 @@
     git add -A && git commit -m "Add client application" && git push
 
 # Run current project
-    npx nx build client
+    npx nx build client:build:production
     npx http-server ./dist/apps/client
+
+    npx nx build server:build:production
+    node ./dist/apps/server/main.js
