@@ -15,6 +15,7 @@
     "@nrwl/eslint-plugin-nx": "14.5.5",
     "@nrwl/jest": "14.5.5",
     "@nrwl/linter": "14.5.5",
+    "@nrwl/nest": "^14.5.5",
     "@nrwl/react": "^14.5.5",
     "@nrwl/web": "14.5.5",
     "@nrwl/workspace": "14.5.5",
