@@ -7,8 +7,9 @@ services:
       POSTGRES_DB: ${NX_DB_NAME}
       POSTGRES_USER: ${NX_DB_USER_NAME}
       POSTGRES_PASSWORD: ${NX_DB_USER_PASSWORD}
+    hostname: ${NX_DB_HOST_NAME}
     ports:
-      - '5432:5432'
+      - ${NX_DB_PORT}:${NX_DB_PORT}
     # volumes:
     #   - postgres-data:/var/lib/postgresql/data
 
